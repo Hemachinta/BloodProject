@@ -1,0 +1,43 @@
+.grid1{
+    display: grid;
+    width: 98%;
+    
+    padding-top: 20px;
+    grid-template-columns: repeat(4,23%);
+    background-color:#e6e6e6;
+    left:20px;
+    position: relative;
+    column-gap: 20px;
+    row-gap: 50px;
+    height: 900px;
+}
+
+.box{
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    position: relative;
+    height: 400px;
+    left:25px;
+}
+
+.box:hover{
+    box-shadow: 0 0 5px 5px red;
+}
+.ss{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    text-shadow: 0 0 5px 5px red;
+}
+button1{
+    font-size: 30px;
+    color: aqua;
+    background-color: blue;
+    border-radius: 10px;
+}
+button1:hover{
+    background-color: green;
+    color: black;
+    border-radius: 15px;
+}

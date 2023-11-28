@@ -5,9 +5,289 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* nav{
+  background-color: aqua;
+  padding: 16px 40px;
+/* /* }  */
+.nav1{
+  background-color: rgba(24, 98, 121, 0.231);
+  padding: 16px 30px;
+  padding: 20px;
+  font-size: x-large;
+}
+nav a{
+  text-decoration: none;
+  margin-right: 15px;
+}
+nav a.Active{
+  text-decoration:green;
+  background-color: black;
+  font-size: 25px;
+}
+.login-form{
+  width:300px;
+  margin:0 auto;
+  border:3px solid black;
+  border-radius:5px;
+  background-color: burlywood;
+  padding: 10px;
+  padding-right: 25px;
+  margin-top: 20px;
+}
+.login-form label{
+  display:block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.login-form input{
+  width:100%;
+  border:2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.login-form button{
+  margin-left:125px;
+  margin-top: 20px;
+  background-color: black;
+  color: white
+}
+.login-form button:hover{
+  background-color: white;
+  color: black;
+}
+.login-form h4{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 16px;
+}
+.login-form a{
+  margin-left: 125px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+.login-form a:hover{
+  background-color: white;
+  color: black;
+}
+.signup-form p{
+  color:red;
+  font-size: 12px;
+  text-align: center;
+}
+.signup-form{
+  width:300px;
+  margin:0 auto;
+  border:3px solid black;
+  border-radius:5px;
+  background-color: burlywood;
+  padding: 10px;
+  padding-right: 25px;
+  margin-top: 20px;
+}
+.signup-form label{
+  display:block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.signup-form input{
+  width:100%;
+  border:2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.signup-form button{
+  margin-left:125px;
+  margin-top: 20px;
+  background-color: black;
+  color: white
+}
+.signup-form button:hover{
+  background-color: white;
+  color: black;
+}
+.signup-form h4{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 16px;
+}
+.signup-form a{
+  margin-left: 125px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+.signup-form a:hover{
+  background-color: white;
+  color: black;
+}
+.details{
+  border-radius: 10px;
+  background-color:aquamarine;
+  width:300px;
+  margin:0 auto;
+  border:3px solid black;
+  padding: 10px;
+  padding-right: 25px;
+  margin-top: 20px;
+}
+.details label{
+  display:block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.details input{
+  width:100%;
+  border:2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.details button{
+  margin-left:30px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+}
+.details textarea{
+  width:100%;
+  border:2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.details select{
+  width:100%;
+  border:2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.blood-match{
+  border-radius: 10px;
+  background-color:aquamarine;
+  width:300px;
+  margin:0 auto;
+  border:3px solid black;
+  padding: 10px;
+  padding-right: 25px;
+  margin-top: 40px;
+  box-shadow: 3px 3px 3px 3px grey;
+  blur-radius:3px;
+}
+.blood-match label{
+  display:block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.blood-match select{
+  width:100%;
+  border:2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.emp-table{
+  width:100%;
+  border-collapse: collapse;
+  background-color: bisque;
+}
+.emp-table th {
+  border:3px solid black;
+  background-color: aquamarine;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+.emp-table td {
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  border: 3px solid black;
+}
+.emp-table tbody button {
+  width:100%;
+  background-color: black;
+  color: white;
+  padding:10px;
+  cursor:pointer;
+}
+.emp-table tbody button:hover{
+  background-color:white;
+  color:black;
+}
+.popup {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-update {
+  width:300px;
+  margin:auto;
+  padding: 20px;
+  padding-right: 40px;
+  border:2px solid black;
+  border-radius: 6px;
+  background-color: aqua; 
+}
+.form-update label{
+  display:block;
+  font-weight: 16px;
+  margin-bottom: 5px; 
+
+}
+.form-update input{
+  width:100%;
+  padding:10px;
+  margin-bottom: 15px;
+  border:3px solid grey;
+  border-radius: 5px;
+
+}
+.form-update button{
+  width:100%;
+  display: block;
+  background-color: burlywood;
+  color: white;
+  padding: 10px;
+}
+.form-update button:hover{
+  background-color: cadetblue;
+}
+
+.popup .popup-cancel {
+  width:100%;
+  text-align: center;
+  border:2px solid block;
+  border-radius: 10px;
+}
+
+
